@@ -3,10 +3,8 @@ import RecipeData from "./RecipeData.js"
 import RecipeCreate from "./RecipeCreate.js"
 import RecipeList from "./RecipeList.js"
 
-// For every (TODO) create we have to render a Board 
 const RecipeTodoList = ({ recipe, deleteRecipe, index }) => {  
   
-  // this section be added when a new item is added: 
   return (
         <tr>
             <td>{recipe.name}</td>
